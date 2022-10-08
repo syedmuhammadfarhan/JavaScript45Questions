@@ -428,22 +428,28 @@ if (userName0.length === 0) {
 console.log("");
 console.log("32");
 
-let current_users = ["Tahir", "FAHAD", "Imran", "WAQAR", "Rizwan"];
-let new_users = ["Huzaifa", "Nasar", "fahad", "Waqar", "amir"];
+// unique username search without changing element case in original array
 
+let current_users = ["Shahid", "JAVED", "faisal", "UMAIR", "babar"];
+let new_users = ["Tanveer", "Zahid", "Javed", "IMRAN", "Umair"];
 
-for (let n = 0; n < new_users.length; n++) {
-  for (let c = 0; c < current_users.length; c++) {
-    if (new_users[n].toLowerCase() === current_users[c].toLowerCase()) {
-      console.log(`The person ${new_users[n]} will need to enter a new username.`)
-      break;
+let current_users_new = [];
 
+for (let i = 0; i < current_users.length; i++) {
+    current_users_new[i] = current_users[i].toLowerCase();
+}
+
+for (let i = 0; i < new_users.length; i++) {
+    let element = new_users[i].toLowerCase();
+     
+    if (current_users_new.indexOf(element) === -1) {
+        console.log(`The username, ${new_users[i]}, is available.`);
     }
-   
-
-  }
+    
+    else {
+        console.log(`The person, ${new_users[i]}, will need to enter a new username.`)
+    }
 };
-
 
 
 
