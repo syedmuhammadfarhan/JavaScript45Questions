@@ -70,7 +70,7 @@ console.log(`My favourite number is ` +  favnum);
 console.log("");
 console.log(10);
 
-console.log(`adding Comments has been added in Q no 7/8 and 9`);
+console.log(`Comments are added at top of Q no 7/8 and 9`);
 
 //Q11
 console.log("");
