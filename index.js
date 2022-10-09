@@ -539,6 +539,29 @@ city_country("Paris", "France");
 city_country("Qabul", "Afghanistan");
 city_country("Mecca", "Saudi Arabia");
 
+
+console.log("")
+console.log("40")
+
+function make_album(artist, title, tracks) {
+        let music_album = {
+        Artist : artist,
+        Title : title,
+        
+    }
+    if (tracks) {
+        music_album.Track = tracks;
+    }
+    return music_album;
+};
+
+console.log(make_album("Ed Sheeran", "Divide"));
+console.log(make_album("Ed Eminem", "Infinite"));
+console.log(make_album("Katy Perry", "Prism"));
+
+console.log(make_album("Enrique Igliesias", "Euphoria", 12));
+
+
 console.log("");
 console.log("41");
 
