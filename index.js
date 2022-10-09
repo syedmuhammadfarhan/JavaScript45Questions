@@ -587,3 +587,49 @@ function make_great() {
 show_magicians(make_great());
 
 
+console.log("");
+console.log("43");
+
+let magi_name_org = [];
+for (let i = 0; i < magi_name.length; i++) {
+  magi_name_org[i] = magi_name[i].slice(10);
+}
+console.log(magi_name);
+console.log(magi_name_org);
+
+
+console.log("");
+console.log("44");
+
+let sandwich = [];
+
+function sand_item(item) {
+  
+  sandwich.push(item);
+  console.log(sandwich);
+
+};
+
+sand_item("Tomato");
+sand_item("Cucumber");
+sand_item("Onion");
+
+
+console.log("");
+console.log("45");
+
+function car_info(manufracturer, Model) {
+  let car = {
+    Manufracturer : manufracturer,
+    Model : Model,
+  }
+return car;
+};
+
+console.log(car_info("Honda", "Civic"));
+console.log(car_info("Toyota", "Corola"));
+
+
+
+
+
