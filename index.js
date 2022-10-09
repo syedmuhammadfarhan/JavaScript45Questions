@@ -48,7 +48,7 @@ function wname(text) {
 wname("\"\tsyed\nmuhammad\nfarhan\t\"");
 wname("\"syed\nmuhammad\nfarhan\"");
 
-//Q7Q8 to display num 8 by using arithmetic operators 
+//Q7 & Q8 to display num 8 by using arithmetic operators 
 console.log("");
 console.log("7 & 8");
 
@@ -65,9 +65,12 @@ console.log(9);
 let favnum = 3;
 console.log(`My favourite number is ` +  favnum);
 
-//Q10 Comments has been added in Q no 7,8,9
+//Q10 adding Comments: Comments has been added in Q no 7/8 and 9
+
+console.log("");
 console.log(10);
-console.log(`adding comments`);
+
+console.log(`adding Comments has been added in Q no 7/8 and 9`);
 
 //Q11
 console.log("");
